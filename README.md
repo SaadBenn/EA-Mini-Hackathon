@@ -8,7 +8,8 @@ To run the program, do the following:
 `npm install node-fetch --save` to install node-fetch module
 
 
-**Note
+**Note**
+
 For the sake of my demo I had to push Node_modules.
 
 
