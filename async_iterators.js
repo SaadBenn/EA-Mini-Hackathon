@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 async function streamingRead() {
+  // For demo purposes, hard-coding this link
   const response = await fetch('https://www.reddit.com/r/javascript/top/.json?limit=5');
   console.log(response.body);
   for await (const chunk of streamAsyncIterator(response.body)) {
